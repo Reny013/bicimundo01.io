@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto - BiciMundo</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&family=Sigmar&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="header-container">
+        <div class="logo">
+          <a href="index.html"> <img src="mundo.jpg" alt="logo" id="biciMundo"></a> 
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Estoy buscando...">
+            <button type="submit">Buscar</button>
+        </div>
+
+        <div class="phone-container">
+        </div>
+        <span class="user-container">
+            <a href="registro.html" title="registro"> <i class="fas fa-user"></i> </a><span class="hide-on-mobile"> </span>
+        </span>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+
+<a href="carrito.html" id="icono-carrito" style="text-decoration: none; font-size: 18px; margin-left: 20px;">
+  🛒 <span style="background:red;color:white;border-radius:50%;padding:2px 6px;font-size:12px;">0</span>
+</a>
+</header>
+
+<!-- MENÚ DEBAJO DEL HEADER -->
+<nav class="main-menu" id="main-menu">
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+      <li><a href="bicicletas.html">BICICLETAS</a></li>
+      <li><a href="accesorios.html">ACCESORIOS</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+
+
+  </ul>
+</nav>
+
+<nav class="mobile-menu" id="mobile-menu">
+<div class="menu-header">
+  <span>Menú</span>
+  <button id="close-menu">&times;</button>
+</div>
+<ul>
+<li><a href="index.html">Inicio</a></li>
+  <li><a href="bicicletas.html">BICICLETAS</a></li>
+  <li><a href="accesorios.html">ACCESORIOS</a></li>
+  <li><a href="contacto.html">Contacto</a></li>
+</ul>
+</nav>
+</div>
+  <section class="contacto-section">
+    <div class="container">
+      <h2 class="contacto">Contáctanos</h2>
+
+      <div class="formulario-contacto">
+        <form style="max-width: 600px; margin: 20px auto; background: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+          <label for="nombre" class="contacto">Nombre:</label>
+          <input style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px;" type="text" id="nombre" name="nombre" required>
+
+          <label for="email" class="contacto">Correo electrónico:</label>
+          <input style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px;" type="email" id="email" name="email" required>
+
+          <label for="asunto" class="contacto">Asunto:</label>
+          <input style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px;" type="text" id="asunto" name="asunto" required>
+
+          <label for="mensaje" class="contacto">Mensaje:</label>
+          <textarea style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px;" id="mensaje" name="mensaje" rows="5" required></textarea>
+
+          <button style="background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;" type="submit">Enviar</button>
+        </form>
+      </div>
+
+      <div class="info-contacto">
+        <h3>Información</h3>
+        <p>Email: contacto@bicimundo.com</p>
+        <p>Teléfono: +1 (809) 555-1234</p>
+        <p>Ubicación: Santo Domingo, República Dominicana</p>
+
+        <h3>Síguenos</h3>
+        <p>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a> |
+          <a href="https://www.facebook.com" target="_blank"rel="noopener">Facebook</a> |
+          <a href="https://www.tiktok.com" target="_blank"rel="noopener">TikTok</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+
+<!-- Font Awesome para íconos -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<footer class="footer">
+  <div class="footer-section">
+    <h3>BiciMundo</h3>
+    <p>© 2025 Todos los derechos reservados.</p>
+  </div>
+
+  <div class="footer-section">
+    <h4>Enlaces</h4>
+    <a href="index.html">Inicio</a>
+    <a href="bicicletas.html">Bicicletas</a>
+    <a href="accesorios.html">Accesorios</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="login.html">Login</a>
+  </div>
+
+  <div class="footer-section">
+    <h4>Redes Sociales</h4>
+    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+    <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+    <a href="#"><i class="fab fa-tiktok"></i> TikTok</a>
+  </div>
+
+  <div class="footer-section">
+    <h4>Contacto</h4>
+    <p>Email: contacto@bicimundo.com</p>
+    <p>Tel: +1 (809) 555-1234</p>
+    <p>Ubicación: Santo Domingo, RD</p>
+    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" class="btn-top">Ir arriba ↑</button>
+  </div>
+</footer>
+</body>
+</html>
